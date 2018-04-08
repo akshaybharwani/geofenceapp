@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">geofence-app</string>
+
+    <array name="categories">
+        <item>Sports</item>
+        <item>Music</item>
+        <item>Event</item>
+
+    </array>
+</resources>

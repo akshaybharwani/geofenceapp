@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akshay.android.geofence_app.AddInformation"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:hint="Title"/>
+
+    <EditText
+        android:id="@+id/description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textImeMultiLine"
+        android:hint="Description"/>
+
+    <Button
+        android:id="@+id/add_geofence_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a Geofence"/>
+
+    <TextView
+        android:id="@+id/geofence_location_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/geofence_latitude_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/geofence_longitude_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/add_information_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Information"/>
+
+</LinearLayout>
